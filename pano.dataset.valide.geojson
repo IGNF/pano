@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.522592,
+                    46.98586
+                ]
+            },
+            "properties": {
+                "id": "416",
+                "code": "{\"B14\": 70, \"M9z\": \"Rappel\"}",
+                "etat": "Bon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.522592,
+                    46.023584
+                ]
+            },
+            "properties": {
+                "id": "416",
+                "code": "{\"B14\": 30}",
+                "etat": "Bon"
+            }
+        }
+    ]
+}

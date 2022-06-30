@@ -1,0 +1,156 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "PANO",
+  "title": "Schéma des panneaux de signalisation routière",
+  "description": "Spécification du format pivot de production et diffusion des données relatives aux panneaux de signalisation routière",
+  "keywords": [
+    "panneau",
+    "équipement",
+    "route"
+  ],
+  "countryCode": "FR",
+  "homepage": "https://github.com/IGNF/pano",
+  "path": "https://github.com/IGNF/pano/raw/v0.1.0/pano.schema.json",
+  "image": "https://github.com/IGNF/pano/raw/v0.1.0/resources/pano.schema.png",
+  "licenses": [
+    {
+      "title": "TODO",
+      "name": "TODO",
+      "path": "TODO"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Fichier de données valide (CSV)",
+      "name": "pano.vaureal.valide.csv",
+      "path": "https://github.com/IGNF/pano/raw/v0.1.0/pano.dataset.valide.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fichier de données source (CSV)",
+      "name": "pano.vaureal.source.csv",
+      "path": "https://github.com/IGNF/pano/raw/v0.1.0/pano.dataset.source.csv"
+    },
+    {
+      "title": "Catalogue des signaux routiers",
+      "name": "catalogue_des_signaux_routiers",
+      "path": "http://www.msr83.fr/IMG/pdf/catalogue_des_signaux_routiers.pdf"
+    },
+    {
+      "title": "Liste des panneaux routiers",
+      "path": "https://fr.wikibooks.org/wiki/Code_de_la_route/Liste_des_panneaux"
+    }
+  ],
+  "created": "2022-06-29",
+  "lastModified": "2022-06-29",
+  "version": "0.1.1",
+  "contributors": [
+    {
+      "title": "Paul-Emmanuel Gautreau",
+      "email": "paul-emmanuel.gautreau@ign.fr",
+      "organisation": "IGN",
+      "role": "author"
+    },
+    {
+      "title": "Mickaël Borne",
+      "email": "mickael.borne@ign.fr",
+      "organisation": "IGN",
+      "role": "author"
+    },
+    {
+      "title": "Marie Chalmel",
+      "email": "marie.chalmel@ign.fr",
+      "organisation": "IGN",
+      "role": "contributor"
+    },
+    {
+      "title": "Mirela Konini",
+      "email": "mirela.konini@ign.fr",
+      "organisation": "IGN",
+      "role": "contributor"
+    },
+    {
+      "title": "Matthieu Le-Masson",
+      "email": "matthieu.le-masson@ign.fr",
+      "organisation": "IGN",
+      "role": "contributor"
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "title": "Identifiant du panneaux",
+      "description": "Identifiant unique du panneaux",
+      "example": "1",
+      "type": "integer",
+      "constraints": {
+        "required": true,
+        "unique": true
+      }
+    },
+    {
+      "name": "code",
+      "title": "Code du panneau",
+      "type": "object",
+      "example": "{\n  \"B14\": \"70\",\n  \"M9Z\": \"Rappel\",\n  \"M4f\": \"5,5t\"\n}",
+      "description": "Les codes du panneau et de ses panonceaux selon la codification officielle ainsi que l'inscription qu'ils portent sont contenus dans un objet JSON",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "etat",
+      "title": "L'état du panneau",
+      "type": "string",
+      "exemple": "bon",
+      "description": "L'état de détérioration du panneau",
+      "constraints": {
+        "enum": [
+          "bon",
+          "mauvais"
+        ]
+      }
+    },
+    {
+      "name": "azimuth",
+      "title": "L'azimuth du panneau",
+      "type": "integer",
+      "example": "48",
+      "description": "Angle en degrés entre la direction du panneau dans son axe de lecture et le nord. Indique la direction vers laquelle l'information portée par le panneau s'applique.",
+      "constraints": {
+        "minimum": "0",
+        "maximum": "360"
+      }
+    },
+    {
+      "name": "rattachements",
+      "title": "Référence au tronçon de route",
+      "type": "object",
+      "format": "https://github.com/IGNF/pano.rattachements.schema.json",
+      "description": "Référence le tronçon de route sur lequel s'applique la directive inscrite sur le panneau."
+    },
+    {
+      "name": "producteur",
+      "title": "La dénomination du producteur de la donnée panneau",
+      "type": "string",
+      "example": "police",
+      "description": "Information identifiant le producteur de la donnée"
+    },
+    {
+      "name": "commentaire",
+      "title": "Commentaires sur le panneau",
+      "type": "string",
+      "description": "Champ libre pour toute remarque utile concernant le panneau",
+      "example": "Texte libre"
+    },
+    {
+      "name": "geometrie",
+      "title": "La position du panneau",
+      "type": "geojson",
+      "example": "{\n  \"type\":\"Point\",\n  \"coordinates\":[2.522592,46.985860]\n}",
+      "description": "Représentation du panneau par une géométrie de type \"Point\" dans le système de coordonnées géographiques WGS84 et au format GeoJSON"
+    }
+  ],
+  "primaryKey": "id"
+}

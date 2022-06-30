@@ -1,0 +1,4 @@
+id,code,etat,geometrie
+416,"{""B14"": 70, ""M9z"": ""Rappel""}",Bon,"{""type"":""Point"",""coordinates"":[2.522592,46.985860]}"
+532,"{""B14"": 30}",Bon,"{""type"":""Point"",""coordinates"":[0.522592,46.023584]}"
+536,"{""Ab2"": """", ""M9z"": ""Chaussée déformée""}",Mauvais,"{""type"":""Point"",""coordinates"":[1.020593,45.285660]}"

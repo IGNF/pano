@@ -1,0 +1,81 @@
+{
+    "name": "pano.rattachements",
+    "title": "Schéma du champ rattachements de pano",
+    "description": "Spécification du format du champ 'rattachements' du schéma 'pano'",
+    "path": "https://github.com/IGNF/pano/raw/v0.1.0/pano.rattachements.schema.json",
+    "image": "https://github.com/IGNF/pano/raw/v0.1.0/resources/pano.rattachements.schema.png",
+    "sources": [
+        {
+            "title": "Schéma de donnée pano",
+            "name": "pano.schema.json",
+            "path": "https://github.com/IGNF/pano/raw/v0.1.0/pano.schema.json"
+        }
+    ],
+    "fields": [
+        {
+            "name": "bdtopo_troncon",
+            "title": "Référence au tronçon de route de la BDTopo",
+            "type": "string",
+            "description": "Référence le tronçon de route sur lequel s'applique la directive inscrite sur le panneau. Se réfère au champ `cleabs` de la table `troncon_de_route` de la BDTopo® IGN",
+            "constraints": {
+                "pattern": "^TRONROUT\\d{16}$"
+            }
+        },
+        {
+            "name": "bdtopo_position_sur_troncon",
+            "title": "Position du projeté du panneau sur le tronçon de route de la BDTopo",
+            "type": "number",
+            "example": "0.45",
+            "description": "Position sur le tronçon à partir de laquelle la directive inscrite par le panneau s'applique. La valeur doit être comprise entre 0 (extrémité initiale du tronçon) et 1 (extrémité finale du tronçon).",
+            "constraints": {
+                "minimum": "0.00",
+                "maximum": "1.00"
+            }
+        },
+        {
+            "name": "bdtopo_sens",
+            "title": "Sens du panneau relatif au tronçon de route de la BDTopo",
+            "example": "-1",
+            "type": "integer",
+            "description": "Sens d'application du panneau par rapport au sens de numérisation du tronçon de route (1=direct, -1=inverse).Quasiment indispensable pour les routes à double sens de circulation.",
+            "constraints": {
+                "enum": [-1,1]
+            }
+        },
+        {
+            "name": "bdtopo_projete",
+            "title": "Projeté du panneau sur le référentiel routier",
+            "example": "{\n  \"type\":\"Point\",\n  \"coordinates\":[2.522592,46.985860]\n}",
+            "type": "geojson",
+            "description": "Géométrie du projeté du panneau sur le référentiel routier. Le rattachement du panneau au référentiel routier se fait à l'endroit où la directive indiquée par le panneau s'applique sur la route. Représentation du panneau par une géométrie de type \"Point\"."
+        },
+        {
+            "name": "bdtopo_azimuth_du_projete",
+            "title": "Azimuth du projeté du panneau",
+            "example": "46.27",
+            "type": "integer",
+            "description": "Angle en degrés entre le nord et la direction prise par le tronçon de route au niveau du projeté du panneau en tenant compte du sens du panneau.",
+            "constraints": {
+                "minimum": "0.00",
+                "maximum": "360.00"
+            }
+        },
+        {
+            "name": "bdtopo_version",
+            "title": "Version de la BDTopo",
+            "description": "Version de la BDTopo utilisée pour le rattachement du panneau",
+            "example": "v3",
+            "type": "string"
+        },
+        {
+            "name": "bdtopo_actualite",
+            "title": "Actualité de la BDTopo",
+            "type": "date",
+            "example": "2022-03-15",
+            "description": "Date de l'actualité de la BDTopo utilisée pour le rattachement du panneau",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

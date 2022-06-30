@@ -1,0 +1,72 @@
+{
+    "name": "pano.extensions",
+    "title": "Extension possible du schéma PANO",
+    "description": "Proposition d'extensions au schéma PANO à discuter",
+    "fields": [
+      {
+        "name": "numero_route",
+        "title": "Numéro de la route",
+        "type": "string",
+        "description": "Motif de l'extension : Aide à désambiguïsation dans la recherche d'un rattachement au réseau routier",
+        "example": "D32"
+      },
+      {
+        "name": "nom_rue",
+        "title": "Nom de la rue",
+        "type": "string",
+        "description": "Motif de l'extension : Aide à désambiguïsation dans la recherche d'un rattachement au réseau routier",
+        "example": "AV LOUISE MICHEL"
+      },
+      {
+        "name": "nature_route",
+        "title": "Nature de la route",
+        "type": "string",
+        "description": "Motif de l'extension : Aide à désambiguïsation dans la recherche d'un rattachement au réseau routier",
+        "constraints": {
+          "enum": [
+            "type_autoroutier",
+            "bretelle",
+            "piste_cyclable",
+            "route_1_chaussee",
+            "route_2_chaussees",
+            "chemin"
+          ]
+        }
+      },
+      {
+        "name": "date_apparition",
+        "title": "Date d'apparition du panneau",
+        "type": "date",
+        "example": "2022-03-15",
+        "description": "Date la plus ancienne à laquelle on peut attester de la présence du panneau sur le terrain. Motif de l'extension : indice de fiabilité"
+      },
+      {
+        "name": "date_confirmation",
+        "title": "Date de confirmation du panneau",
+        "type": "date",
+        "example": "2022-03-15",
+        "description": "Date la plus récente à laquelle on peut peut attester de la présence du panneau sur le terrain. Motif de l'extension : indice de fiabilité"
+      },
+      {
+        "name": "date_creation",
+        "title": "Date de création du panneau",
+        "type": "date",
+        "example": "2022-03-15",
+        "description": "Date informatique de création de la donnée. Motif de l'extension : historisation de la donnée"
+      },
+      {
+        "name": "date_modification",
+        "title": "Date de modification du panneau",
+        "type": "date",
+        "example": "2022-03-15",
+        "description": "Date informatique de dernière modification de la donnée. Motif de l'extension : historisation de la donnée"
+      },
+      {
+        "name": "detruit",
+        "title": "Indication de destruction de l'objet",
+        "type": "boolean",
+        "example": "false",
+        "description": "Indique si l'objet est détruit ou non. Motif de l'extension : historisation de la donnée"
+      }
+  ]
+}
