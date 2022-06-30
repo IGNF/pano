@@ -42,5 +42,5 @@ En cible, il est prévu d'ajouter les classes d'objet suivantes :
 
 * [détails sur la codification d'un panneau](doc/pano.codification.md)
 * [détails sur le principe de rattachement d'un panneau à un référentiel routier](doc/pano.rattachements.md)
-* [proposition d'extensions au modèle éventuellement utiles mais discutables](doc/pano.schema.extensions.schema.md)
+* [proposition d'extensions au modèle éventuellement utiles mais discutables](doc/pano.extensions.schema.md)
 * [détails sur la problématique de complétude des panneaux d'agglomération](doc/pano.agglomerations.md)
