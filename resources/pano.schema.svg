@@ -16,9 +16,82 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="pano.schema.svg">
+   sodipodi:docname="pano.schema.svg"
+   inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+   inkscape:export-xdpi="86.400002"
+   inkscape:export-ydpi="86.400002">
   <defs
      id="defs2">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1062"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1059"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path950"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path944"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path920"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient7872">
@@ -160,7 +233,7 @@
        x2="457.83087"
        y2="-66.336845"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-336.75959,-1.0690798)" />
+       gradientTransform="translate(-369.2682,-106.75812)" />
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
@@ -200,10 +273,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497476"
-     inkscape:cx="818.44093"
-     inkscape:cy="525.9007"
+     inkscape:cx="424.1794"
+     inkscape:cy="609.87925"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2124"
      showgrid="false"
      inkscape:window-width="1853"
      inkscape:window-height="1016"
@@ -219,7 +292,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -247,211 +320,37 @@
     <g
        id="g2124"
        transform="matrix(0.51856419,0,0,0.51856419,-45.841999,81.517256)">
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cccccccccssscssccc"
-         inkscape:connector-curvature="0"
-         id="path1008"
-         d="m 299.92095,318.34564 -0.69287,-129.3257 v -5.34538 L 324.03741,183.14 c 0,0 1.58098,-0.73499 2.24985,-1.60362 0.66888,-0.86862 1.03374,-4.07585 0.97293,-5.47901 -0.0608,-1.40317 -0.30405,-9.88898 -0.30405,-9.88898 0,0 -0.8513,-3.60814 -4.49972,-3.74179 -3.64844,-0.13364 -20.3096,0.40093 -20.3096,0.40093 0,0 28.76609,-5.75488 29.45404,-39.96172 0.68795,-34.206841 -27.00221,-42.522321 -38.69744,-42.333331 -11.69523,0.18899 -37.09551,9.39165 -36.4616,42.522331 0.6339,33.13064 30.92846,40.14373 30.92846,40.14373 -0.45709,0.79844 -18.41083,0.92455 -19.99182,1.05818 -3.99459,0.33765 -6.71826,22.65622 5.34095,20.59647 1.85348,-0.31658 18.12055,-0.66819 18.12055,-0.66819 l 1.25931,134.45095 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.63438714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         transform="scale(0.88776172,1.1264284)"
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         id="text1126"
-         y="119.17245"
-         x="310.22934"
-         style="font-style:normal;font-weight:normal;font-size:3.73713112px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2548044"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.53809357px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.2548044"
-           y="119.17245"
-           x="310.22934"
-           id="tspan1124"
-           sodipodi:role="line">70</tspan></text>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path1006"
-         d="m 262.54079,367.84182 -36.72905,-60.48473 -14.35903,-26.66033 -14.99425,-31.1275 -14.67348,-48.0903 -16.40745,-51.91847"
-         style="fill:none;stroke:url(#linearGradient7874);stroke-width:2.71399999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         id="text1076"
-         y="114.89684"
-         x="115.88605"
-         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332"
-           y="114.89684"
-           x="115.88605"
-           id="tspan1074"
-           sodipodi:role="line">N</tspan></text>
-      <ellipse
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         ry="38.465187"
-         rx="35.144783"
-         cy="122.00837"
-         cx="293.58868"
-         id="path1092"
-         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.77852225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <ellipse
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         ry="34.38385"
-         rx="30.107365"
-         cy="122.08607"
-         cx="293.89551"
-         id="path1092-5"
-         style="fill:none;fill-opacity:1;stroke:#ff5b00;stroke-width:11.95400047;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         transform="matrix(0.96602269,-0.05091196,0.05440522,1.0323051,0,0)"
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         id="text1130"
-         y="188.29324"
-         x="267.81329"
-         style="font-style:normal;font-weight:normal;font-size:3.75390744px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25594822"
-         xml:space="preserve"><tspan
-           dx="0"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.28551483px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0.93165153px;word-spacing:0px;stroke-width:0.25594822"
-           y="188.29324"
-           x="267.81329"
-           id="tspan1128"
-           sodipodi:role="line">RAPPEL</tspan></text>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1082"
-         d="m 259.80666,102.76328 c 0,0 -68.85619,-38.145928 -119.10286,-65.941959"
-         style="fill:#999999;stroke:#6b6b6b;stroke-width:0.86500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path1006-6"
-         d="m 206.50084,386.57024 -25.20956,-64.54711 -9.69301,-28.68799 -9.5714,-33.19845 -6.41531,-49.86816 -7.4839,-53.93258"
-         style="fill:none;stroke:#000000;stroke-width:3.31400013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:19.88400009, 19.88400009;stroke-dashoffset:33.13999939;stroke-opacity:0.55084749" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1153"
-         d="m 222.44332,82.563898 c 0,0 -30.05269,0.328108 -57.43938,28.599672"
-         style="fill:none;stroke:#000000;stroke-width:1.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.09500009, 4.09500009;stroke-dashoffset:0;stroke-opacity:1" />
-      <g
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         transform="matrix(0.59828474,0,0,0.59828474,-109.56633,170.59278)"
-         style="stroke:#000000;stroke-width:3.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="g1161">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:3.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 693.29715,240.33886 -33.14142,17.63978"
-           id="path1155"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:none;stroke:#000000;stroke-width:3.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 662.82842,238.73524 31.5378,21.9161"
-           id="path1157"
-           inkscape:connector-curvature="0" />
-      </g>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path1163"
-         d="m 336.54539,81.844843 h 16.57072 V 187.14904 h -17.6398"
-         style="fill:none;stroke:#000000;stroke-width:1.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          inkscape:export-ydpi="70.480003"
          inkscape:export-xdpi="70.480003"
          inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
          id="text1167"
-         y="96.579315"
-         x="414.8316"
+         y="33.933945"
+         x="301.93805"
          style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
-           id="tspan1181"
+           id="tspan15621"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="96.579315"
-           x="414.8316"
+           y="33.933945"
+           x="301.93805"
            sodipodi:role="line"><tspan
    style="fill-opacity:1;stroke:none;stroke-width:0.26458332"
    id="tspan12963"><tspan
    id="tspan1195"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'">code</tspan> </tspan>: { </tspan><tspan
-           id="tspan15619"
-           style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="117.74598"
-           x="414.8316"
-           sodipodi:role="line">        B14: 70,</tspan><tspan
-           id="tspan15617"
-           style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="138.91264"
-           x="414.8316"
-           sodipodi:role="line">        M9z: RAPPEL</tspan><tspan
-           id="tspan15621"
-           style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="160.07932"
-           x="414.8316"
-           sodipodi:role="line">    }</tspan></text>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path1199"
-         d="m 290.4284,163.19854 16.23708,-0.37101"
-         style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path1201"
-         d="m 290.83996,184.185 9.21721,-0.51044"
-         style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path1203"
-         d="m 294.1573,317.26712 -1.9395,-1.3882 0.007,-4.87262 c 0.004,-2.67994 -0.2735,-32.22592 -0.61648,-65.65774 -0.34296,-33.43182 -0.53885,-60.87174 -0.43532,-60.9776 0.10353,-0.10586 1.89116,-0.29854 3.97253,-0.4282 l 3.78431,-0.23572 0.23148,6.91525 c 0.12732,3.80339 0.33952,33.72655 0.47154,66.4959 l 0.24003,59.58063 -1.88812,0.97826 -1.88809,0.97826 z"
-         style="fill:#666666;fill-opacity:0.5381356;stroke:none;stroke-width:0.81615412;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'">code</tspan> </tspan>: {B14: 70, M9z: RAPPEL}</tspan></text>
       <text
          inkscape:export-ydpi="70.480003"
          inkscape:export-xdpi="70.480003"
          inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
          id="text1167-1"
-         y="4.5382075"
-         x="308.02264"
+         y="316.86932"
+         x="331.3959"
          style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan1181-8"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="4.5382075"
-           x="308.02264"
+           y="316.86932"
+           x="331.3959"
            sodipodi:role="line"><tspan
    style="fill-opacity:1;stroke:none;stroke-width:0.26458332"
    id="tspan1526"><tspan
@@ -459,145 +358,261 @@
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.26458332">azimuth</tspan> </tspan>: angle dans le plan</tspan><tspan
            id="tspan1545"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="25.704872"
-           x="308.02264"
+           y="338.03598"
+           x="331.3959"
            sodipodi:role="line">    horizontal entre le nord et</tspan><tspan
            id="tspan1549"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="46.87154"
-           x="308.02264"
-           sodipodi:role="line">    l'axe de lecture du panneau </tspan><tspan
+           y="359.20267"
+           x="331.3959"
+           sodipodi:role="line">    la direction du panneau </tspan><tspan
            id="tspan1547"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="68.038208"
-           x="308.02264"
+           y="380.36932"
+           x="331.3959"
            sodipodi:role="line" /></text>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1205-4"
-         d="m 311.47782,319.26798 c 12.66972,1.15628 75.90823,8.3058 76.05571,-25.18251"
-         style="fill:none;stroke:#000000;stroke-width:1.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-1)" />
       <text
          inkscape:export-ydpi="70.480003"
          inkscape:export-xdpi="70.480003"
          inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
          id="text1167-1-7"
-         y="286.91934"
-         x="386.24005"
+         y="179.02209"
+         x="247.48164"
          style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
-           id="tspan1549-7"
+           id="tspan7564"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="286.91934"
-           x="386.24005"
+           y="179.02209"
+           x="247.48164"
            sodipodi:role="line"><tspan
    style="fill-opacity:1;stroke:none;stroke-width:0.26458332"
    id="tspan1526-6"><tspan
    id="tspan1195-2-3"
-   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.26458332">geometrie</tspan> </tspan>: position</tspan><tspan
-           id="tspan7564"
-           style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="308.086"
-           x="386.24005"
-           sodipodi:role="line">    du panneau au sol</tspan><tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.26458332">geometrie</tspan> </tspan>: position du panneau au sol</tspan><tspan
            id="tspan1547-2"
            style="fill:#000000;fill-opacity:0.5381356;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-           y="329.25269"
-           x="386.24005"
+           y="200.18877"
+           x="247.48164"
            sodipodi:role="line" /></text>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path15039"
-         d="m 211.88096,113.95581 c -23.43925,-2.42232 -42.95502,-4.43235 -43.36841,-4.46671 l -0.7516,-0.0625 2.26351,-2.05596 c 14.59696,-13.258509 32.51626,-21.799185 49.98299,-23.822839 1.40325,-0.162575 2.9174,-0.295695 3.36479,-0.295821 0.72535,-2.04e-4 2.72314,1.078165 18.45209,9.960201 16.62454,9.387769 17.63549,9.988089 17.58368,10.441589 -0.0302,0.26464 -0.43741,1.54713 -0.90482,2.84998 -1.00888,2.81214 -1.71088,5.82787 -2.10881,9.05932 -0.1596,1.29619 -0.2902,2.46556 -0.2902,2.59859 0,0.16198 -0.26529,0.23469 -0.80319,0.22012 -0.44178,-0.012 -19.98078,-2.00365 -43.42003,-4.42598 z"
-         style="opacity:1;fill:#e3e3e3;fill-opacity:1;stroke:none;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         inkscape:connector-curvature="0"
-         id="path15623"
-         d="M 297.05841,123.21147 257.3616,110.47605"
-         style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path15727"
-         d="M 259.80666,102.76328 431.03731,197.1854"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.1199999, 2.1199999;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         style="stroke-width:1.31372142;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(1.9963729,-0.48833015,0.48833015,1.9963729,-1233.8752,329.81824)"
-         id="g15738">
+         id="g42567"
+         transform="matrix(0.90420314,0,0,0.90420314,-2.6478704,-4.4814994)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.63438714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 267.41234,212.6563 266.71947,83.330595 v -5.34538 l 24.80933,-0.53456 c 0,0 1.58098,-0.73499 2.24985,-1.60362 0.66888,-0.86862 1.03374,-4.07585 0.97293,-5.479006 -0.0608,-1.403166 -0.30405,-9.88894 -0.30405,-9.88894 0,0 -0.8513,-3.608128 -4.49972,-3.741778 -3.64844,-0.13364 -20.3096,0.40093 -20.3096,0.40093 0,0 28.76609,-5.754856 29.45404,-39.961564 0.68795,-34.206753 -27.00221,-42.522231 -38.69744,-42.333241 -11.69523,0.18899 -37.09551,9.391648 -36.4616,42.522241 0.6339,33.130508 30.92846,40.143574 30.92846,40.143574 -0.45709,0.798436 -18.41083,0.924546 -19.99182,1.058176 -3.99459,0.337646 -6.71826,22.656168 5.34095,20.596418 1.85348,-0.31658 18.12055,-0.66819 18.12055,-0.66819 l 1.25931,134.450955 z"
+           id="path1008"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccssscssccc"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.73713112px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2548044"
+           x="273.61127"
+           y="25.345623"
+           id="text1126"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003"
+           transform="scale(0.88776171,1.1264284)"><tspan
+             sodipodi:role="line"
+             id="tspan1124"
+             x="273.61127"
+             y="25.345623"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.53809357px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.2548044">70</tspan></text>
+        <path
+           style="fill:none;stroke:url(#linearGradient7874);stroke-width:2.71399999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 230.03218,262.15248 193.30313,201.66775 178.9441,175.00742 163.94985,143.87992 149.27637,95.789615 132.86892,43.871253"
+           id="path1006"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.77852225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1092"
+           cx="261.08017"
+           cy="16.31929"
+           rx="35.144783"
+           ry="38.465187"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#ff5b00;stroke-width:11.95400047;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1092-5"
+           cx="261.38699"
+           cy="16.39698"
+           rx="30.107365"
+           ry="34.38385"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.75390744px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25594822"
+           x="240.00435"
+           y="84.539734"
+           id="text1130"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003"
+           transform="matrix(0.96602267,-0.05091196,0.05440522,1.0323051,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan1128"
+             x="240.00435"
+             y="84.539734"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.28551483px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0.93165153px;word-spacing:0px;stroke-width:0.25594822"
+             dx="0">RAPPEL</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.31400013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:19.88400009, 19.88400009;stroke-dashoffset:33.13999939;stroke-opacity:0.55084749"
+           d="m 173.99223,280.8809 -25.20956,-64.54711 -9.69301,-28.68799 -9.5714,-33.19845 -6.41531,-49.86816 -7.4839,-53.932505"
+           id="path1006-6"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
         <g
-           transform="translate(-0.29885281,-1.9310489)"
-           id="g15748">
+           id="g1161"
+           style="stroke:#000000;stroke-width:3.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(0.59828474,0,0,0.59828474,-142.07494,64.903459)"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003">
           <path
              inkscape:connector-curvature="0"
-             id="path15729"
-             d="m 810.57104,131.95931 c 0,0 -6.94901,0.93544 -5.47901,8.41899"
-             style="fill:none;stroke:#000000;stroke-width:1.31372142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-          <g
-             id="g15742">
-            <path
-               style="fill:none;stroke:#000000;stroke-width:1.31372142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               d="m 810.40639,129.13816 c -0.63996,4.08397 -0.0864,7.73693 1.73725,10.95805 H 812.01 c -3.89299,-1.60176 -7.6704,0.10664 -10.82442,1.33635"
-               id="path15731"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cccc" />
-            <ellipse
-               ry="1.4871716"
-               rx="1.6710811"
-               style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.21393609;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="path15733"
-               cx="805.61963"
-               cy="134.67612" />
-          </g>
+             id="path1155"
+             d="m 693.29715,240.33886 -33.14142,17.63978"
+             style="fill:none;stroke:#000000;stroke-width:3.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1157"
+             d="m 662.82842,238.73524 31.5378,21.9161"
+             style="fill:none;stroke:#000000;stroke-width:3.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 299.42566,-22.751012 h 16.57072 V 82.552884 h -17.6398"
+           id="path1163"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 257.91979,57.509251 16.23708,-0.37101"
+           id="path1199"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 258.33135,78.495655 9.21721,-0.51044"
+           id="path1201"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <path
+           style="fill:#666666;fill-opacity:0.5381356;stroke:none;stroke-width:0.81615412;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 261.64869,211.57778 -1.9395,-1.3882 0.007,-4.87262 c 0.004,-2.67994 -0.2735,-32.22592 -0.61648,-65.65774 -0.34296,-33.43182 -0.53885,-60.871745 -0.43532,-60.977605 0.10353,-0.10586 1.89116,-0.29854 3.97253,-0.4282 l 3.78431,-0.23572 0.23148,6.91525 c 0.12732,3.80339 0.33952,33.726555 0.47154,66.495905 l 0.24003,59.58063 -1.88812,0.97826 -1.88809,0.97826 z"
+           id="path1203"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <path
+           style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 264.5498,17.522337 224.85299,4.7869656"
+           id="path15623"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
       </g>
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1205"
-         d="M 198.26071,83.343453 C 209.32663,16.47153 247.66405,1.9310102 302.53999,2.1058962"
-         style="fill:none;stroke:#000000;stroke-width:1.39929605;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1205-4-8"
-         d="m 360.01506,134.18484 c 15.10585,-1.35924 61.30339,-0.28278 64.40871,-31.59181"
-         style="fill:none;stroke:#000000;stroke-width:1.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-1-4)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path18291"
-         d="m 275.58294,120.7093 c -10.9109,-1.09511 -19.85815,-2.01186 -19.88274,-2.03721 -0.14356,-0.14792 0.5936,-5.98909 1.05079,-8.32606 l 0.0763,-0.38969 0.62626,0.21079 c 0.34445,0.11593 8.88176,2.90511 18.97181,6.19818 20.14726,6.57542 19.42975,6.33832 19.17529,6.33643 -0.0989,-5.8e-4 -9.10676,-0.89733 -20.01764,-1.99244 z"
-         style="opacity:1;fill:#e3e3e3;fill-opacity:0.80201338;stroke:none;stroke-width:3.32594657;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="70.480003"
-         inkscape:export-xdpi="70.480003"
-         inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path1088"
-         d="M 297.16699,123.21147 143.18727,107.21741"
-         style="fill:#808080;stroke:#6b6b6b;stroke-width:0.86500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path18295"
-         d="m 257.39726,110.13683 38.29643,12.53781"
-         style="fill:none;stroke:#4d4d4d;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g26668"
+         transform="matrix(0.92255814,0,0,0.8588311,-206.16129,65.94662)"
+         style="fill:none;fill-opacity:1">
+        <rect
+           y="208.74812"
+           x="332.7644"
+           height="190.41975"
+           width="230.96861"
+           id="rect909"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.91490602;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.78442264px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:none;stroke-width:0.18984699"
+           x="415.71893"
+           y="243.32355"
+           id="text1076"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003"><tspan
+             sodipodi:role="line"
+             id="tspan1074"
+             x="415.71893"
+             y="243.32355"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.20027733px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:none;fill-opacity:1;stroke-width:0.18984699">N</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path911"
+           d="m 349.71688,379.40592 c 0,0 106.1949,-110.257 147.97651,-125.9251 41.78161,-15.6681 41.78161,-15.6681 41.78161,-15.6681"
+           style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:42.40385818;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <ellipse
+           ry="2.2086022"
+           rx="1.9909892"
+           cy="370.03558"
+           cx="421.6275"
+           id="path913"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.10528088;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path1210"
+           d="m 423.22327,368.51229 27.41918,-24.80783 91.01385,-84.63054"
+           style="fill:none;fill-opacity:1;stroke:#6a6a6a;stroke-width:1.14893544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.59574172, 4.59574172;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path915"
+           d="m 423.22327,368.51229 c 27.41918,-24.80783 27.41918,-24.80783 27.41918,-24.80783"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.1507448;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1210-0"
+           d="m 423.22327,368.51229 -0.0743,-120.35878"
+           style="fill:none;fill-opacity:1;stroke:#6a6a6a;stroke-width:1.14893544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.59574161, 4.59574161;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path1229"
+           d="m 422.69749,264.61628 c 0,0 50.06075,-15.59271 75.09113,30.77505"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.1507448;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
+        <path
+           sodipodi:nodetypes="cccccc"
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.61300397;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.67802248, 21.67802248;stroke-dashoffset:33.14922333;stroke-opacity:1"
+           d="m 349.71688,379.40592 53.26845,-53.28769 24.51277,-22.34607 29.2787,-24.40295 48.39267,-29.60915 34.30553,-11.94734"
+           id="path1006-6-8"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/ign.fr/pegautreau/pano/pano/resources/pano.schema.png"
+           inkscape:export-xdpi="70.480003"
+           inkscape:export-ydpi="70.480003" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:9.46758366px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64551705"
+           x="416.05081"
+           y="239.29121"
+           id="text72795"><tspan
+             sodipodi:role="line"
+             id="tspan72793"
+             x="416.05081"
+             y="239.29121"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.21378708px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.64551705">N</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
