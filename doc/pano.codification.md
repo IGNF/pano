@@ -17,6 +17,6 @@ Tous ces panneaux partagent le même support mais il conviendra de produire deux
 ```
 
 Un panneau désigne en fait un ensemble dans lequel peuvent coexister :
-* un panneau (requis)
+* un panneau
 * un ou plusieurs panonceaux  
 
