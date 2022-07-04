@@ -1,34 +1,282 @@
 {
     "type": "FeatureCollection",
+    "name": "pano",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
     "features": [
         {
             "type": "Feature",
+            "properties": {
+                "id": 375,
+                "code": {
+                    "J5": ""
+                },
+                "etat": "bon",
+                "azimuth": 250,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000243755360",
+                    "bdtopo_position_sur_troncon": "0.87",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "249.9",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.0176427340804,49.0359551493816]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.522592,
-                    46.98586
+                    2.01764144,
+                    49.035957901899998
                 ]
-            },
-            "properties": {
-                "id": "416",
-                "code": "{\"B14\": 70, \"M9z\": \"Rappel\"}",
-                "etat": "Bon"
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "id": 348,
+                "code": {
+                    "J4": ""
+                },
+                "etat": "bon",
+                "azimuth": 2,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004014568",
+                    "bdtopo_position_sur_troncon": "0.26",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "1.5",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.02140623747407,49.0350474787649]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    0.522592,
-                    46.023584
+                    2.0214434713,
+                    49.035039120699999
                 ]
-            },
+            }
+        },
+        {
+            "type": "Feature",
             "properties": {
-                "id": "416",
-                "code": "{\"B14\": 30}",
-                "etat": "Bon"
+                "id": 953,
+                "code": {
+                    "B14": "30"
+                },
+                "etat": "bon",
+                "azimuth": 247,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004016535",
+                    "bdtopo_position_sur_troncon": "0.73",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "246.9",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.01918930739215,49.0328355292504]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.019174993,
+                    49.032867828199997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 911,
+                "code": {
+                    "B14": "30"
+                },
+                "etat": "bon",
+                "azimuth": 141,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004018663",
+                    "bdtopo_position_sur_troncon": "0.35",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "141.2",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.01848807433708,49.0291375422035]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0184534788,
+                    49.0291158717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 962,
+                "code": {
+                    "A13b": ""
+                },
+                "etat": "bon",
+                "azimuth": 96,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004020729",
+                    "bdtopo_position_sur_troncon": "0.68",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "96.0",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.027227190264,49.0244845223641]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.027220279,
+                    49.024441577399998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 988,
+                "code": {
+                    "B14": "30"
+                },
+                "etat": "bon",
+                "azimuth": 62,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004020694",
+                    "bdtopo_position_sur_troncon": "0.09",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "62.1",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.02923652632508,49.0246604516134]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0292453468,
+                    49.024631090299998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 435,
+                "code": {
+                    "B14": "30"
+                },
+                "etat": "mauvais",
+                "azimuth": 92,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000129715466",
+                    "bdtopo_position_sur_troncon": "0.19",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "91.7",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.03090381781116,49.0216638506475]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0309036225,
+                    49.0216458485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 419,
+                "code": {
+                    "B13": "8t"
+                },
+                "etat": "bon",
+                "azimuth": 14,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000323360821",
+                    "bdtopo_position_sur_troncon": "0.23",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "13.5",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.02785274651232,49.0196634858233]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0278948545,
+                    49.0196533891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 916,
+                "code": {
+                    "EB20": "vaureal"
+                },
+                "etat": "moyen",
+                "azimuth": 131,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004020633",
+                    "bdtopo_position_sur_troncon": "0.91",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "130.9",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.03953928106752,49.0252700451059]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0395249128,
+                    49.025252828200003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 61,
+                "code": {
+                    "A13a": "",
+                    "M9d": ""
+                },
+                "etat": "bon",
+                "azimuth": 303,
+                "rattachements": {
+                    "bdtopo_troncon": "TRONROUT0000000004018805",
+                    "bdtopo_position_sur_troncon": "0.40",
+                    "bdtopo_sens": "1",
+                    "bdtopo_azimuth_du_projete": "303.4",
+                    "bdtopo_projete": "{\"type\":\"Point\",\"coordinates\":[2.01770821969317,49.0260450506527]}"
+                },
+                "producteur": "police",
+                "commentaire": "jeu de données test"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0177400112,
+                    49.026091326699998
+                ]
             }
         }
     ]
