@@ -77,7 +77,7 @@
       "role": "contributor"
     }
   ],
-  "columns": [
+  "fields": [
     {
       "name": "id",
       "title": "Identifiant du panneaux",
