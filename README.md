@@ -34,9 +34,6 @@ La référence choisie ici est la `BDTopo®` mais le modèle est extensible, afi
 ## Diffusion via BDTopo® (IGN)
 
 L'IGN prévoit de diffuser des données panneaux via leur intégration à la `BDTopo®`.
-En cible, il est prévu d'ajouter les classes d'objet suivantes : 
-* `pano` : dans le modèle décrit ici
-* `zone_pano` : table des zones créées à partir des panneaux d'agglomération et portant une prescription zonale
 
 ## Pour aller plus loin
 

@@ -18,17 +18,16 @@
         "example": "AV LOUISE MICHEL"
       },
       {
-        "name": "nature_route",
-        "title": "Nature de la route",
+        "name": "type_route",
+        "title": "Type de la route",
         "type": "string",
         "description": "Motif de l'extension : Aide à désambiguïsation dans la recherche d'un rattachement au réseau routier",
         "constraints": {
           "enum": [
-            "type_autoroutier",
+            "autoroute",
             "bretelle",
-            "piste_cyclable",
-            "route_1_chaussee",
-            "route_2_chaussees",
+            "cyclable",
+            "pieton",
             "chemin"
           ]
         }
@@ -67,6 +66,13 @@
         "type": "boolean",
         "example": "false",
         "description": "Indique si l'objet est détruit ou non. Motif de l'extension : historisation de la donnée"
+      },
+      {
+        "name": "source",
+        "title": "Identifiant producteur",
+        "type": "string",
+        "exemple": "123",
+        "description": "Identifiant de la donnée dans la base du producteur"
       }
   ]
 }
