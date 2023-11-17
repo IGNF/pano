@@ -1,0 +1,6 @@
+| Nom de l'attribut           | Type    | Obligatoire (O/N) | Description                                                                                                                                                                                                                                                     |
+| --------------------------- | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id              | string  | O                 | identifiant de la zone                                                                                          |
+| value | string  | N                 | Valeur inscrite sur les panneaux de zone                                                          |
+| type | string  | N   O             | Type de zone                                                         |
+| geometrie                 | geometry(polygon) | O                 | Géométrie de la zone                                                                              |
