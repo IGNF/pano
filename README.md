@@ -14,7 +14,7 @@ Le standard choisi est [`TableSchema`](https://specs.frictionlessdata.io/table-s
 
 Les principales propriétés qui permettent de modéliser un panneau sont les suivantes :
 * une géométrie ponctuelle qui représente sa position
-* un code qui contient son type selon la [codification officielle](http://www.msr83.fr/IMG/pdf/catalogue_des_signaux_routiers.pdf) et l'inscription qu'il porte, ainsi que ses éventuels panonceaux
+* un code qui contient son type selon la [codification officielle](https://equipementsdelaroute.cerema.fr/versions-consolidees-des-9-parties-de-l-a528.html) et l'inscription qu'il porte, ainsi que ses éventuels panonceaux
 * un angle qui donne son orientation  
   
 ![](resources/pano.schema.png)  
