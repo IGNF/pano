@@ -41,3 +41,6 @@ L'IGN prévoit de diffuser des données panneaux via leur intégration à la `BD
 * [détails sur le principe de rattachement d'un panneau à un référentiel routier](doc/pano.rattachements.md)
 * [proposition d'extensions au modèle éventuellement utiles mais discutables](doc/pano.extensions.schema.md)
 * [détails sur la problématique de complétude des panneaux d'agglomération](doc/pano.agglomerations.md)
+
+## Liens
+* [Liste des panneaux avec fichiers SVG](https://commons.wikimedia.org/wiki/Category:SVG_road_signs_in_France)
