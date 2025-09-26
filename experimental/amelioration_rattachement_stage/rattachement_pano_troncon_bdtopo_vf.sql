@@ -15,7 +15,6 @@ Critères modulables, les valeurs peuvent être changées
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
 -- Extensions : 
 
 CREATE EXTENSION IF NOT EXISTS postgis;

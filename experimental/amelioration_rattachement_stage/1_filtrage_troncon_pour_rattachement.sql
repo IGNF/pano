@@ -1,6 +1,6 @@
 -- FUNCTION: public.compute_vla_estimee(character varying, geometry, character varying, boolean, character varying, character varying, character varying, character varying, character varying, character varying)
- 
--- DROP FUNCTION IF EXISTS public.compute_vla_estimee(character varying, geometry, character varying, boolean, character varying, character varying, character varying, character varying, character varying, character varying);
+
+--DROP FUNCTION IF EXISTS public.compute_vla_estimee(character varying, geometry, character varying, boolean, character varying, character varying, character varying, character varying, character varying, character varying);
  
 CREATE OR REPLACE FUNCTION public.compute_vla_estimee(
 	cleabs character varying,
@@ -12,7 +12,8 @@ CREATE OR REPLACE FUNCTION public.compute_vla_estimee(
 	acces_vehicule_leger character varying,
 	nombre_de_voies character varying,
 	nature_de_la_restriction character varying,
-	sens_de_circulation character varying)
+	sens_de_circulation character varying,
+    cpx_classement_administratif character varying)
     RETURNS integer
     LANGUAGE 'plpgsql'
     COST 100
@@ -22,7 +23,7 @@ DECLARE
     vraie_autoroute BOOLEAN;
 BEGIN
  
--- Cas des troncons non praticable par véhciule motorisé => vitesse nulle
+-- Cas des troncons non praticables par un véhicule motorisé => vitesse nulle
 IF (etat_de_l_objet <> 'En service'
     OR etat_de_l_objet IS NULL
     OR acces_vehicule_leger = 'Physiquement impossible'
@@ -36,9 +37,8 @@ ELSIF nature = 'Bretelle' THEN RETURN 70;
  
 -- Cas des troncons de type autoroutier
 ELSIF nature = 'Type autoroutier' THEN 
+    IF cpx_classement_administratif IN ('Autoroute', 'Autoroute/Route nommée') THEN
     -- vraie autoroute
-    SELECT troncon_is_autoroute(cleabs) INTO vraie_autoroute;
-    IF vraie_autoroute THEN
         IF urbain THEN RETURN 90;
         ELSE return 130;
         END IF;
@@ -49,7 +49,7 @@ ELSIF nature = 'Type autoroutier' THEN
         END IF;
     END IF;
  
--- "Route à double sens avec au moins 2 voies dans un même sens → 90 km/h" (si signalée) cf D213  , concerne des voies rapides comme la D213 (Route Bleue)
+-- Route à double sens avec au moins 2 voies dans un même sens (voies rapides hors autoroute) → 90 km/h et 70 en zone urbaine
 ELSIF (
     (sens_de_circulation = 'Double sens' AND nombre_de_voies IN ('4','5'))
     OR (sens_de_circulation IN ('Sens direct', 'Sens inverse') AND nombre_de_voies IN ('2','3','4','5'))
@@ -74,22 +74,42 @@ END;
  
 $BODY$;
  
-ALTER FUNCTION public.compute_vla_estimee(character varying, geometry, character varying, boolean, character varying, character varying, character varying, character varying, character varying, character varying)
+ALTER FUNCTION public.compute_vla_estimee(character varying, geometry, character varying, boolean, character varying, character varying, character varying, character varying, character varying, character varying, character varying)
     OWNER TO postgres;
 
--- Tronçons du réseau départemental pour le rattachement des panneaux du CD44
-CREATE TABLE troncon_departemental AS 
-	SELECT *, compute_vla_estimee(cleabs
-        geom
-        nature
-        urbain
-        importance
-        etat_de_l_objet
-        acces_vehicule_leger
-        nombre_de_voies
-        nature_de_la_restriction
-        sens_de_circulation) AS vla_estimee 
-    FROM troncon_de_route_bd_topo
+
+---- Tronçons du réseau départemental pour le rattachement des panneaux du CD44 -----
+DROP TABLE IF EXISTS troncon_departemental;
+CREATE TABLE troncon_departemental AS -- selection des champs de la BD Topo utiles au calcul de vitesse et à la navigation par la suite
+	SELECT cleabs,
+	nature,
+	importance,
+	urbain,
+	etat_de_l_objet,
+	acces_vehicule_leger,
+	nombre_de_voies, 
+	nature_de_la_restriction, 
+	sens_de_circulation, 
+	prive,
+	cpx_numero,
+	cpx_classement_administratif,
+	position_par_rapport_au_sol, 
+	fictif,
+	largeur_de_chaussee,
+	geom,
+	compute_vla_estimee(cleabs,
+        geom,
+        nature,
+        urbain,
+        importance,
+        etat_de_l_objet,
+        acces_vehicule_leger,
+        nombre_de_voies,
+        nature_de_la_restriction,
+        sens_de_circulation,
+        cpx_classement_administratif) AS vla_estimee --calcul du champ vla_estimee
+    FROM troncon_de_route_bdtopo
+    -- Filtrage des tronçons praticables et candidats au rattachement + propagation des panneaux vitesse
 	WHERE cpx_classement_administratif IN ('Départementale', 'Départementale/Route nommée')
   	AND etat_de_l_objet = 'En service'
  	AND nature NOT IN ('Escalier', 'Bac ou liaison maritime', 'Sentier')
